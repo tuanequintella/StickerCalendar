@@ -1,0 +1,1 @@
+json.array! @stickers, partial: 'show', as: :sticker

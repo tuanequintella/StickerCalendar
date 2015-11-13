@@ -1,0 +1,1 @@
+json.extract! sticker, :id, :habit_name

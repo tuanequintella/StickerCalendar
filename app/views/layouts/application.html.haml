@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title
+      StickerCalendar
+    =stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  
+  %body
+    = render "nav"
+
+    - if flash[:notice].present?
+      .container
+        .alert.alert-info
+          = flash[:notice]
+          
+    = yield

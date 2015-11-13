@@ -1,0 +1,39 @@
+/home/tuane/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151022-15126-123dtsw.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling trycatch.cc
+compiling constraints.cc
+compiling date.cc
+compiling invocation.cc
+compiling init.cc
+compiling heap.cc
+compiling message.cc
+compiling handles.cc
+compiling context.cc
+compiling external.cc
+compiling function.cc
+compiling backref.cc
+compiling template.cc
+compiling string.cc
+compiling script.cc
+compiling value.cc
+compiling accessor.cc
+compiling v8.cc
+compiling signature.cc
+compiling locker.cc
+compiling exception.cc
+compiling gc.cc
+compiling array.cc
+compiling primitive.cc
+compiling constants.cc
+compiling rr.cc
+compiling stack.cc
+compiling object.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20151022-15126-159rwyx/v8
